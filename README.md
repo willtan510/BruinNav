@@ -6,7 +6,7 @@ C++ program that builds navigation system that loads and indexes OpenStreetMap g
 After the user inputs valid attraction as the starting point and a valid attraction as the destination, the program outputs a cardinal direction along with a distance with a precision of .001 miles to proceed walking or a directional turn if changing streets.
 
 EXAMPLE: Directions from UCLA dorm building Rieber Terrace to popular ice cream store in Westwood, Diddy Riese:
-![example-image](https://gyazo.com/9c98615ca0ce2ebebdcb99889a475496)
+![example-image](https://i.gyazo.com/9c98615ca0ce2ebebdcb99889a475496.png)
 
 
 
