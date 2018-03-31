@@ -65,6 +65,12 @@ int main()
 		cout << "Invalid destination\n";
 		exit(1);
 	}
+
+	if (source == destination)
+	{
+		cout << "You've reached your destination!\n";
+		return 0;
+	}
 	n.navigate(source, destination, vn);
 
 	double rdDist = 0;
