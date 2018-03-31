@@ -11,4 +11,5 @@ EXAMPLE: Directions from UCLA dorm building Rieber Terrace to popular ice cream 
 
 
 Current version takes user-input locations and provides simpler and clearer directions compared to what was asked for in the original specs.
-Original specifications for the project detailed from UCLA CS-32 Course: http://web.cs.ucla.edu/classes/winter17/cs32/Projects/4/spec.pdf
+
+Original specifications for the project detailed in UCLA Winter 2017 CS-32 Course: http://web.cs.ucla.edu/classes/winter17/cs32/Projects/4/spec.pdf
