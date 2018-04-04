@@ -8,7 +8,7 @@ After the user inputs valid attraction as the starting point and a valid attract
 EXAMPLE: Directions from UCLA dorm building Rieber Terrace to popular ice cream store in Westwood, Diddy Riese:
 ![example-image](https://i.gyazo.com/9c98615ca0ce2ebebdcb99889a475496.png)
 
-
+Contained BruinNav.exe file runs independently on linux environment as long as mapdata.txt is in same directory
 
 Current version takes user-input locations and provides simpler and clearer directions compared to what was asked for in the original specs.
 
