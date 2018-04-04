@@ -4,9 +4,6 @@
 
 // MyMap.h
 
-// Skeleton for the MyMap class template.  You must implement the first six
-// member functions.
-
 template <typename KeyType, typename ValueType>
 class MyMap
 {
