@@ -1,24 +1,3 @@
-// The main.cpp you can use for testing will replace this file soon.
-/*
-#if defined(_MSC_VER)  &&  !defined(_DEBUG)
-#include <iostream>
-#include <windows.h>
-#include <conio.h>
-
-struct KeepWindowOpenUntilDismissed
-{
-~KeepWindowOpenUntilDismissed()
-{
-DWORD pids[1];
-if (GetConsoleProcessList(pids, 1) == 1)
-{
-std::cout << "Press any key to continue . . . ";
-_getch();
-}
-}
-} keepWindowOpenUntilDismissed;
-#endif
-*/
 #include "provided.h"
 #include <vector>
 #include <iostream>
