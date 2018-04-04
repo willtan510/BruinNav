@@ -8,7 +8,7 @@ using namespace std;
 
 class MapLoaderImpl
 {
-public:
+public:									//Class parses through mapData.txt to compile a vector of StreetSegments
 	MapLoaderImpl();
 	~MapLoaderImpl();
 	bool load(string mapFile);
@@ -38,7 +38,7 @@ bool MapLoaderImpl::load(string mapFile)
 		return false;
 	string s;
 	int count = 0;
-	while (getline(file, s))
+	while (getline(file, s))						//Parses through format of mapData.txt to compile necessary geospatial and string data
 	{
 		mapData.push_back(new StreetSegment());
 		mapData[count]->streetName = s;
