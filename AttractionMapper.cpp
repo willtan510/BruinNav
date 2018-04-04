@@ -11,8 +11,8 @@ string lower(string s)
 	return s;
 }
 
-class AttractionMapperImpl
-{
+class AttractionMapperImpl						//class implementing map of possible attractions(source and destinations)
+{									//associates each attraction string to a GeoCoord
 public:
 	AttractionMapperImpl();
 	~AttractionMapperImpl();
@@ -32,10 +32,10 @@ AttractionMapperImpl::~AttractionMapperImpl()
 {
 }
 
-void AttractionMapperImpl::init(const MapLoader& ml)
-{
+void AttractionMapperImpl::init(const MapLoader& ml)		//associates each attraction string to its geocoord
+{								//from information parsed from MapLoader 
 	
-	for (int i = 0; i < ml.getNumSegments(); i++)
+	for (int i = 0; i < ml.getNumSegments(); i++)	
 	{
 		StreetSegment s;
 		ml.getSegment(i, s);
