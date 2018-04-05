@@ -5,8 +5,12 @@ C++ program that builds navigation system that loads and indexes OpenStreetMap g
 
 After the user inputs valid attraction as the starting point and a valid attraction as the destination, the program outputs a cardinal direction along with a distance with a precision of .001 miles to proceed walking or a directional turn if changing streets.
 
-EXAMPLE: Directions from UCLA dorm building Rieber Terrace to popular ice cream store in Westwood, Diddy Riese:
-![example-image](https://i.gyazo.com/9c98615ca0ce2ebebdcb99889a475496.png)
+EXAMPLE: Directions from UCLA dorm building Rieber Hall to popular ice cream store in Westwood, Diddy Riese:
+
+
+Detailed                                                               |  Less Detailed
+:---------------------------------------------------------------------:|:-------------------------:
+![example1-image](https://i.gyazo.com/df69a9a37833be70f395a59204c0a2c4.png)  |  ![example2-image](https://i.gyazo.com/b86c730e43083914eb128d7928e57981.png)
 
 Contained BruinNav.exe file runs independently on linux environment as long as mapdata.txt is in same directory
 
