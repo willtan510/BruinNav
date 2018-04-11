@@ -212,7 +212,7 @@ NavResult NavigatorImpl::navigate(string start, string end, vector<NavSegment> &
 		directions.clear();
 	priority_queue<Node, vector<Node>, CompareClass> minDist;	//priority queue used to pop top value's geocoord into checked
 	MyMap<GeoCoord,int> checked;								//map of checked geocoordinates, used only to ensure a geocoordinate isn't revisted, less big O for find
-	stack<Node> closed;											//stack of nodes, used only to process top node
+	stack<Node> closed;											//stack of nodes, used to process top node and hold all processed nodes, we only needed nodes that will be traversed backwards from each parent pointer to get the final route once the destination is found.
 
 	GeoCoord geoStart;
 	if(AM.getGeoCoord(start, geoStart)==false)
